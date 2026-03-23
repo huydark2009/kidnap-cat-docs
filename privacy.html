@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chính Sách Bảo Mật – MeowKisser</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0e0f13;
+    --surface: #16181f;
+    --border: #2a2d38;
+    --accent: #60c8f5;
+    --accent2: #c084fc;
+    --text: #e2e4ed;
+    --muted: #8b8fa8;
+  }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Sora', sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    min-height: 100vh;
+  }
+  header {
+    background: linear-gradient(135deg, #1a1b25 0%, #12131a 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 48px 24px 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '';
+    position: absolute;
+    top: -60px; left: 50%; transform: translateX(-50%);
+    width: 400px; height: 200px;
+    background: radial-gradient(ellipse, rgba(96,200,245,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .logo { font-size: 2.2rem; font-weight: 700; letter-spacing: -1px; }
+  .logo span { background: linear-gradient(90deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-top: 6px; font-weight: 300; }
+  .updated { display: inline-block; margin-top: 14px; background: rgba(96,200,245,0.1); border: 1px solid rgba(96,200,245,0.25); color: var(--accent); padding: 4px 14px; border-radius: 99px; font-size: 0.75rem; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+  section { margin-bottom: 40px; }
+  h2 { font-size: 1rem; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+  h2::before { content: ''; display: block; width: 3px; height: 16px; background: linear-gradient(var(--accent), var(--accent2)); border-radius: 2px; }
+  p { color: #c5c8d8; margin-bottom: 10px; }
+  ul { list-style: none; padding: 0; }
+  ul li { padding: 6px 0 6px 20px; color: #c5c8d8; position: relative; }
+  ul li::before { content: '›'; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px 28px; }
+  .tag { display: inline-block; background: rgba(96,200,245,0.1); border: 1px solid rgba(96,200,245,0.2); color: var(--accent); padding: 2px 10px; border-radius: 6px; font-size: 0.75rem; margin: 2px; }
+  footer { text-align: center; padding: 24px; color: var(--muted); font-size: 0.8rem; border-top: 1px solid var(--border); }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">🐱 <span>MeowKisser</span></div>
+  <div class="subtitle">Discord Bot – Chính Sách Bảo Mật</div>
+  <div class="updated">Cập nhật: tháng 3, 2025</div>
+</header>
+<main>
+  <section>
+    <h2>Tổng Quan</h2>
+    <div class="card">
+      <p>MeowKisser cam kết bảo vệ quyền riêng tư của bạn. Chính sách này mô tả loại dữ liệu chúng tôi thu thập, cách sử dụng và cách bảo vệ chúng.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Dữ Liệu Chúng Tôi Thu Thập</h2>
+    <div class="card">
+      <p>Để vận hành các tính năng, bot có thể lưu trữ:</p>
+      <ul>
+        <li><strong>Discord User ID</strong> – để nhận diện người dùng trong hệ thống.</li>
+        <li><strong>Discord Server ID</strong> – để phân tách dữ liệu giữa các server.</li>
+        <li><strong>Dữ liệu tương tác</strong> – điểm số, xu, trạng thái couple, VIP/Pro+, nhiệm vụ hàng ngày.</li>
+        <li><strong>Thời gian sử dụng lệnh</strong> – để kiểm tra cooldown và giới hạn spam.</li>
+      </ul>
+      <br>
+      <p>Chúng tôi <strong>không</strong> thu thập: tên thật, địa chỉ email, địa chỉ IP, hay nội dung tin nhắn riêng tư.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Mục Đích Sử Dụng</h2>
+    <div class="card">
+      <p>Dữ liệu thu thập được sử dụng để:</p>
+      <ul>
+        <li>Vận hành các tính năng của bot (couple, shop, nhiệm vụ, bảo vệ,...)</li>
+        <li>Ngăn chặn lạm dụng và spam lệnh</li>
+        <li>Cải thiện trải nghiệm người dùng</li>
+      </ul>
+      <p style="margin-top:12px;">Chúng tôi <strong>không</strong> bán hoặc chia sẻ dữ liệu với bên thứ ba.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Lưu Trữ Dữ Liệu</h2>
+    <div class="card">
+      <p>Dữ liệu được lưu trữ trên server bảo mật. Dữ liệu sẽ được xóa khi:</p>
+      <ul>
+        <li>Bạn yêu cầu xóa tài khoản qua lệnh bot hoặc liên hệ trực tiếp.</li>
+        <li>Bot bị kick khỏi server (dữ liệu server sẽ bị xóa sau 30 ngày).</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Quyền Của Bạn</h2>
+    <div class="card">
+      <p>Bạn có quyền:</p>
+      <ul>
+        <li>Yêu cầu xem dữ liệu của bạn đang được lưu trữ.</li>
+        <li>Yêu cầu xóa toàn bộ dữ liệu cá nhân.</li>
+        <li>Không sử dụng bot bất cứ lúc nào.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Trẻ Em</h2>
+    <div class="card">
+      <p>Bot không được thiết kế dành cho trẻ em dưới 13 tuổi. Nếu bạn phát hiện người dùng dưới 13 tuổi đang sử dụng bot, vui lòng thông báo cho chúng tôi.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Liên Hệ</h2>
+    <div class="card">
+      <p>Nếu bạn có câu hỏi hoặc muốn yêu cầu xóa dữ liệu, vui lòng liên hệ qua Discord server hỗ trợ của MeowKisser.</p>
+      <p style="margin-top:8px;">Xem thêm: <a href="terms.html">Điều Khoản Dịch Vụ</a></p>
+    </div>
+  </section>
+</main>
+<footer>© 2025 MeowKisser Bot. All rights reserved.</footer>
+</body>
+</html>

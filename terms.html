@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Điều Khoản Dịch Vụ – MeowKisser</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0e0f13;
+    --surface: #16181f;
+    --border: #2a2d38;
+    --accent: #ff6b9d;
+    --accent2: #c084fc;
+    --text: #e2e4ed;
+    --muted: #8b8fa8;
+  }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Sora', sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    min-height: 100vh;
+  }
+  header {
+    background: linear-gradient(135deg, #1a1b25 0%, #12131a 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 48px 24px 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '';
+    position: absolute;
+    top: -60px; left: 50%; transform: translateX(-50%);
+    width: 400px; height: 200px;
+    background: radial-gradient(ellipse, rgba(255,107,157,0.15) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .logo { font-size: 2.2rem; font-weight: 700; letter-spacing: -1px; }
+  .logo span { background: linear-gradient(90deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .subtitle { color: var(--muted); font-size: 0.85rem; margin-top: 6px; font-weight: 300; }
+  .updated { display: inline-block; margin-top: 14px; background: rgba(255,107,157,0.1); border: 1px solid rgba(255,107,157,0.25); color: var(--accent); padding: 4px 14px; border-radius: 99px; font-size: 0.75rem; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+  section { margin-bottom: 40px; }
+  h2 { font-size: 1rem; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+  h2::before { content: ''; display: block; width: 3px; height: 16px; background: linear-gradient(var(--accent), var(--accent2)); border-radius: 2px; }
+  p { color: #c5c8d8; margin-bottom: 10px; }
+  ul { list-style: none; padding: 0; }
+  ul li { padding: 6px 0 6px 20px; color: #c5c8d8; position: relative; }
+  ul li::before { content: '›'; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px 28px; }
+  footer { text-align: center; padding: 24px; color: var(--muted); font-size: 0.8rem; border-top: 1px solid var(--border); }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">🐱 <span>MeowKisser</span></div>
+  <div class="subtitle">Discord Bot</div>
+  <div class="updated">Cập nhật: tháng 3, 2025</div>
+</header>
+<main>
+  <section>
+    <h2>Giới Thiệu</h2>
+    <div class="card">
+      <p>Chào mừng bạn đến với <strong>MeowKisser</strong> – bot Discord mang lại niềm vui, tương tác xã hội và các tính năng giải trí cho cộng đồng của bạn. Bằng cách sử dụng bot, bạn đồng ý với các điều khoản sau đây.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Điều Kiện Sử Dụng</h2>
+    <div class="card">
+      <ul>
+        <li>Bạn phải tuân thủ <a href="https://discord.com/terms" target="_blank">Điều Khoản Dịch Vụ của Discord</a>.</li>
+        <li>Bạn phải từ 13 tuổi trở lên (hoặc đủ tuổi theo quy định tại quốc gia của bạn).</li>
+        <li>Không được sử dụng bot để spam, quấy rối, hoặc gây hại cho người dùng khác.</li>
+        <li>Không cố tình khai thác lỗi hoặc lạm dụng hệ thống của bot.</li>
+        <li>Admin server có quyền cấu hình và sử dụng bot theo chính sách riêng của server.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Tính Năng & Dữ Liệu</h2>
+    <div class="card">
+      <p>MeowKisser cung cấp các tính năng bao gồm: hệ thống couple, lệnh xã hội, nhiệm vụ hàng ngày, cửa hàng ảo, và các minigame tương tác.</p>
+      <p>Bot lưu trữ dữ liệu cần thiết (ID người dùng, điểm số, trạng thái couple,...) để vận hành các tính năng. Xem <a href="privacy.html">Chính Sách Bảo Mật</a> để biết thêm chi tiết.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Giới Hạn Trách Nhiệm</h2>
+    <div class="card">
+      <ul>
+        <li>Bot được cung cấp "nguyên trạng" và có thể tạm ngừng hoạt động để bảo trì.</li>
+        <li>Chúng tôi không chịu trách nhiệm về bất kỳ tổn thất nào phát sinh từ việc sử dụng bot.</li>
+        <li>Chúng tôi có quyền từ chối dịch vụ với các server vi phạm điều khoản này.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Thay Đổi Điều Khoản</h2>
+    <div class="card">
+      <p>Chúng tôi có thể cập nhật điều khoản này bất cứ lúc nào. Tiếp tục sử dụng bot sau khi có thay đổi đồng nghĩa với việc bạn chấp nhận điều khoản mới.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Liên Hệ</h2>
+    <div class="card">
+      <p>Nếu bạn có câu hỏi về điều khoản này, vui lòng liên hệ với chúng tôi qua Discord server hỗ trợ của MeowKisser.</p>
+    </div>
+  </section>
+</main>
+<footer>© 2025 MeowKisser Bot. All rights reserved.</footer>
+</body>
+</html>
